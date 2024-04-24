@@ -2,10 +2,11 @@ import {
   View,
   Text,
   FlatList,
-  SafeAreaView,
+  
   TouchableOpacity,
   Image,
 } from "react-native";
+import { SafeAreaView } from "react-native-safe-area-context";
 import React from "react";
 import { getUserPosts, signIn, signOut } from "../../lib/appwrite";
 import { useGlobalContext } from "../../context/GlobalProvider";
