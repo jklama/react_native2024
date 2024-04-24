@@ -1,4 +1,11 @@
-import { View, Text, FlatList, SafeAreaView } from "react-native";
+import {
+  View,
+  Text,
+  FlatList,
+  SafeAreaView,
+  TouchableOpacity,
+  Image,
+} from "react-native";
 import React from "react";
 import { getUserPosts, signIn, signOut } from "../../lib/appwrite";
 import { useGlobalContext } from "../../context/GlobalProvider";
